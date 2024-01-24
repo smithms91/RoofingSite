@@ -3,7 +3,6 @@
 import { emailSchema, formOneSchema, formTwoSchema } from "@/schemas/mailSchemas";
 import * as z from "zod";
 // import { NextApiRequest, NextApiResponse } from "next";
-import nodemailer from "nodemailer";
 import { Resend } from 'resend';
 import { EmailTemplate } from "@/components/EmailTemplate/TemplateOne";
 import React from "react";
